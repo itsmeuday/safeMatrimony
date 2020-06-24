@@ -1,0 +1,35 @@
+<div class="" style="background:url('//imgs.bharatmatrimony.com/bmimgs/scam/scam-bg-new.jpg') repeat-x;">
+  <div class="container">
+    <app-header></app-header>
+    <div class="collapse customNavbar" id="collapseExample">
+      <a class="dropdown-item" routerLink="/home" routerLinkActive="active">Home</a>
+      <a class="dropdown-item" routerLink="/contact" routerLinkActive="active">Contact Police</a>
+      <a class="dropdown-item" routerLink="/report" routerLinkActive="active">Report Abuse</a>
+    </div>
+    <div class="hideNavBar" style="padding: 15px 0 15px;">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="line-height: 1px;font-weight: bold;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item borderRight1px">
+              <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item borderRight1px">
+              <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact Police</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/report" routerLinkActive="active">Report Abuse</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
+  
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,167 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 500px) { 
+    .headerLogo{
+        width: 45%;
+        display: inline-block;       
+    }
+    .headerHelp{
+        float: right;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .headerContainer{
+        padding-top: 12px;
+    }
+    .listIcon{
+        float: right;
+    }
+    .customNavbar{
+        background: rgb(94, 93, 93);
+        margin-top: 23px;
+        color: white;
+    }
+    .dropdown-item{
+        color: #f1f1f1;
+        font-weight: bold;
+    }
+    .panelWidthLeft{
+        width: 100%;
+    }
+    .panelWidthRight{
+        width: 100%;
+    }
+    a.dropdown-item.active {        
+        color: #f58220;
+        }
+    .hedaerText{
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px 0 10px 0;
+        }
+    .descriptionText{
+            font-size: 13px;
+        }
+     .mTop10{
+            margin-top: 10px;
+        }
+    .customCard{
+            display: inline-block;
+            width: 92%;
+            font-weight: bold;
+        }
+    .txtBold{
+            font-weight: bold;
+        }
+    .font14{
+            font-size: 14px;
+        }
+    .font13{
+            font-size: 13px;
+        }
+    .dot1 {
+            border-top: 1px dotted #000000;
+        }
+    .paddt10 {
+            padding-top: 10px;
+        }
+    .fleft {
+            float: left;
+        }
+    .txt12 {
+            font-size: 12px;
+        }
+    .paddl5 {
+            padding-left: 5px;
+        }
+    .paddr5 {
+            padding-right: 5px;
+        }
+        .boldtxt {
+            font-weight: bold;
+        }
+    .txt20 {
+            font-size: 20px;
+        }
+    .paddb8 {
+            padding-bottom: 8px;
+        }
+    .footer_padding {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: #f1f1f1;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%
+        }
+    .clr3 {
+            color: #333333;
+        }        
+    .txt11 {
+            font-size: 11px;
+        }
+    .displayToggle{
+        display: inline;
+    }
+    .hideNavBar{
+        display: none;
+    }
+    a.dropdown-item.active {
+        background: none;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 790px) { 
+    .headerLogo{
+        width: 60%;
+        display: inline-block;       
+    }
+    .headerHelp{
+        display: inline-block;
+    }
+    .headerContainer{
+        padding-top: 12px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .headerLogo{
+        width: 76%;
+        display: inline-block;       
+    }
+    .headerHelp{
+        display: inline-block;
+    }
+    .headerContainer{
+        padding-top: 12px;
+    }
+    .displayToggle{
+        display: none;
+    }
+    .borderRight1px{
+        border-right: 1px solid white;
+    }
+    .hideNavBar{
+        display: block;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .navbar-dark .navbar-nav .nav-link.active{  
+        color: #f58220;
+        }
+        .panelWidthLeft{
+            width: 60%;           
+            display: inline-block;
+        }
+        .panelWidthRight{
+            width: 35%;
+            float: right;
+        }
+  }

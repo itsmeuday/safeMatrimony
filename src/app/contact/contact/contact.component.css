@@ -1,0 +1,23 @@
+.addRowGap{
+    border-collapse: separate;
+    border-spacing: 0 9px;
+}
+.table td{
+    padding: 0.5rem;
+    background-color: #eeeeee;
+    font-size: 12px;
+}
+.contactDescription{
+    font-size: 11px;
+    padding-top: 10px;
+}
+.contactMainDiv{
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+.txtBold{
+    font-weight: bold;
+}
+.mTop10P{
+    margin-top: 10%;
+}
